@@ -63,7 +63,7 @@ $registry->set('cache', $cache);
 $session = new Session();
 $registry->set('session', $session);
 
-// Config
+// Configuration
 $config = new Config();
 $registry->set('config', $config);
 
